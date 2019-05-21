@@ -1,11 +1,11 @@
 {
-  "name": "runshellscript",
+  "name": "ew-runshellscript",
   "version": "0.1.0",
-  "title": "Execute a shell script",
+  "title": "EW Execute a shell script",
   "type": "flogo:activity",
-  "description": "Run a script",
-  "ref": "github.com/iainharfield/flogo/activity/runshellscript",
-  "author": "Iain Harfield",
+  "description": "Run an EW script",
+  "ref": "github.com/ewilliams/test-clone4/flogo/activity/runshellscript",
+  "author": "Everett Williams",
   "inputs":[
     {
       "name": "cmd",
