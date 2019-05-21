@@ -11,12 +11,12 @@
       "name": "Target",
       "type": "string",
       "required": true
-    }
+    },
     {
       "name": "Definition",
       "type": "string",
       "required": true
-    }
+    },
     {
       "name": "Data",
       "type": "string",
