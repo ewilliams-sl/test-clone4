@@ -1,14 +1,24 @@
 {
-  "name": "ew-runshellscript",
+  "name": "PostToCache",
   "version": "0.1.0",
-  "title": "EW Execute a shell script",
+  "title": "SL Post to cache",
   "type": "flogo:activity",
-  "description": "Run an EW script",
+  "description": "Posting data to a cache",
   "ref": "github.com/ewilliams/test-clone4/flogo/activity/runshellscript",
   "author": "Everett Williams",
   "inputs":[
     {
-      "name": "cmd",
+      "name": "Target",
+      "type": "string",
+      "required": true
+    }
+    {
+      "name": "Definition",
+      "type": "string",
+      "required": true
+    }
+    {
+      "name": "Data",
       "type": "string",
       "required": true
     }
