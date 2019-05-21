@@ -11,7 +11,9 @@ import (
 
 // Constants
 const (
-	command = "cmd"
+	command = "Target"
+	tblDef = "Definition"
+	tblData = "Data"
 	params  = "params"
 	result  = "result"
 )
